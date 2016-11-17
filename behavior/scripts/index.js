@@ -49,7 +49,7 @@ exports.handle = function handle(client) {
 	prompt() {
 	    console.log('sending askgift. Why isn\'t it showing?')
 	    client.addTextResponse('why not?')
-	    client.addResponse('app:response:name:askgift')
+	    // client.addResponse('app:response:name:askgift')
 	    client.done()
 	}
     })
