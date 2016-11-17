@@ -1,11 +1,5 @@
 'use strict'
 
-const urlTools = require('./lib/urls')
-const getTrending = require('./lib/getTrending')
-const getSimilar = require('./lib/getSimilar')
-const setClientCache = require('./lib/setClientCache')
-
-var striptags = require('striptags');
 
 const firstOfEntityRole = function(message, entity, role) {
   role = role || 'generic';
