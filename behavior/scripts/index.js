@@ -26,7 +26,7 @@ exports.handle = function handle(client) {
 	    client.updateConversationState({
 		greetingSent: true
 	    })
-	    client.done()
+	    // client.done()
 	    return 'init.proceed' // `next` from this step will get called
 	}
     })
